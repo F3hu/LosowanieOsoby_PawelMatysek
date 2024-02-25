@@ -1,0 +1,1 @@
+C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\LosowanieOsoby.csproj;x64

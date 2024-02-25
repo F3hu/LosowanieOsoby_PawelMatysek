@@ -1,0 +1,36 @@
+﻿
+
+NavigationPage {
+    background-color: #6edb34;
+    color: #ffffff; 
+    font-size: 20; 
+    font-weight: bold; 
+}
+
+
+.przyciski {
+    color: #cb17d9; 
+    background-color: #e4e622;
+}
+
+#Title {
+    background-color: #6edb34; 
+    font-size: 200; 
+    font-weight: bold;
+}
+
+^StackLayout {
+    background-color: #000000;
+}
+
+
+^Label {
+    font-size: 16;
+    color: #3498db;
+}
+
+
+StackLayout > Button {
+    margin: 30; 
+}
+

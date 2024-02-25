@@ -1,0 +1,49 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LosowanieOsoby.MainPage"
+             xmlns:local="clr-namespace:LosowanieOsoby">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="./style.css" />
+        <ResourceDictionary>
+            <local:Uczen x:Key="Uczen" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="20">
+        <Label Text="System losowania osoby do odpowiedzi" FontSize="20" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20" StyleId="Title"/>
+
+        <Entry x:Name="UczestnikEntry" Placeholder="Wprowadź uczestnika" />
+
+        <StackLayout Orientation="Horizontal" Margin="0,10,0,10">
+            <Button x:Name="DodajButton" Text="Dodaj" />
+            <Button x:Name="LosujButton" Text="Losuj" />
+        </StackLayout>
+
+        <ListView x:Name="UczniowieListView" HeightRequest="150" Margin="0,0,0,10" SelectedItem="{Binding SelectedUczen}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding NumerPorzadkowy}" VerticalOptions="Center"/>
+                            <Label Text=". " VerticalOptions="Center"/>
+                            <Label Text="{Binding ImieNazwisko}" VerticalOptions="Center"/>
+                            <Label Text="   Obecny: " VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Margin="0,0,10,0"/>
+                            <Switch IsToggled="{Binding IsObecny}" VerticalOptions="CenterAndExpand" HorizontalOptions="End" Margin="0,0,10,0"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="ZapiszButton" Text="Zapisz" StyleClass="przyciski"/>
+            <Button x:Name="WczytajButton" Text="Wczytaj" />
+            <Button x:Name="EdytujButton" Text="Edytuj" Clicked="EdytujButton_Clicked" StyleClass="przyciski"/>
+            <Button x:Name="UsunButton" Text="Usuń" Clicked="UsunButton_Clicked" StyleClass="przyciski"/>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

@@ -14,7 +14,7 @@
         <Label Text="System losowania osoby do odpowiedzi" FontSize="20" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20" StyleId="Title"/>
 
         <Entry x:Name="UczestnikEntry" Placeholder="Wprowadź uczestnika" />
-
+        <Entry x:Name="KlasaEntry" Placeholder="Wprowadź klasę" />
         <StackLayout Orientation="Horizontal" Margin="0,10,0,10">
             <Button x:Name="DodajButton" Text="Dodaj" />
             <Button x:Name="LosujButton" Text="Losuj" />
@@ -28,6 +28,8 @@
                             <Label Text="{Binding NumerPorzadkowy}" VerticalOptions="Center"/>
                             <Label Text=". " VerticalOptions="Center"/>
                             <Label Text="{Binding ImieNazwisko}" VerticalOptions="Center"/>
+                           
+                            <Label Text="{Binding Klasa}" VerticalOptions="Center"/>
                             <Label Text="   Obecny: " VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Margin="0,0,10,0"/>
                             <Switch IsToggled="{Binding IsObecny}" VerticalOptions="CenterAndExpand" HorizontalOptions="End" Margin="0,0,10,0"/>
                         </StackLayout>

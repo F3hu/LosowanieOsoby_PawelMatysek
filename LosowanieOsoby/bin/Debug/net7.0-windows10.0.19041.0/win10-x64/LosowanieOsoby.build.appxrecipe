@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>d2c59bdb-6e8f-41be-bbce-d7279b20a981</PackageIdentityName>
+    <PackageIdentityName>0ca66b4b-e356-4412-bde3-5b60a602412b</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>

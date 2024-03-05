@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LosowanieOsoby", "LosowanieOsoby\LosowanieOsoby.csproj", "{09FF9CAE-0A02-48DF-ADB3-EB062C6F0DF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LosowanieOsoby", "LosowanieOsoby\LosowanieOsoby.csproj", "{18EC5471-284B-4453-8044-51F3A931442E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09FF9CAE-0A02-48DF-ADB3-EB062C6F0DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09FF9CAE-0A02-48DF-ADB3-EB062C6F0DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09FF9CAE-0A02-48DF-ADB3-EB062C6F0DF0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{09FF9CAE-0A02-48DF-ADB3-EB062C6F0DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09FF9CAE-0A02-48DF-ADB3-EB062C6F0DF0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09FF9CAE-0A02-48DF-ADB3-EB062C6F0DF0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{18EC5471-284B-4453-8044-51F3A931442E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EC5471-284B-4453-8044-51F3A931442E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EC5471-284B-4453-8044-51F3A931442E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{18EC5471-284B-4453-8044-51F3A931442E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EC5471-284B-4453-8044-51F3A931442E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EC5471-284B-4453-8044-51F3A931442E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CB711382-EB1C-443D-A1FC-41CB8768DA71}
+		SolutionGuid = {AE288B1B-4D3C-4E06-A896-EFC9ED5197D3}
 	EndGlobalSection
 EndGlobal

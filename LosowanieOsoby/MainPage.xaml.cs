@@ -42,29 +42,44 @@ namespace LosowanieOsoby
             LosujButton.Clicked += LosujButton_Clicked;
             ZapiszButton.Clicked += ZapiszButton_Clicked;
             WczytajButton.Clicked += WczytajButton_Clicked;
-            
+
             UsunButton.Clicked += UsunButton_Clicked;
 
             UczniowieListView.ItemSelected += UczniowieListView_ItemSelected;
 
             BindingContext = this;
 
-          
+
             NavigationPage.SetTitleView(this, new Label { Text = "System losowania osoby do odpowiedzi", FontSize = 20, HorizontalOptions = LayoutOptions.CenterAndExpand });
         }
 
         private void DodajButton_Clicked(object sender, EventArgs e)
         {
             string uczestnik = UczestnikEntry.Text;
-            if (!string.IsNullOrWhiteSpace(uczestnik))
+            string klasa = KlasaEntry.Text;  
+
+            if (!string.IsNullOrWhiteSpace(uczestnik) && !string.IsNullOrWhiteSpace(klasa))
             {
-                uczniowie.Add(new Uczen { NumerPorzadkowy = uczniowie.Count + 1, ImieNazwisko = uczestnik });
+                uczniowie.Add(new Uczen
+                {
+                    NumerPorzadkowy = uczniowie.Count + 1,
+                    ImieNazwisko = uczestnik,
+                    Klasa = klasa  
+                });
+
                 RefreshListView();
                 UczestnikEntry.Text = string.Empty;
+                KlasaEntry.Text = string.Empty;
+            }
+            else
+            {
+                DisplayAlert("Błąd", "Nieprawidłowe dane.", "OK");
             }
         }
 
-        
+
+
+
 
         private void UczniowieListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
@@ -108,35 +123,98 @@ namespace LosowanieOsoby
 
         private void ZapiszButton_Clicked(object sender, EventArgs e)
         {
-            File.WriteAllLines(filePath, uczniowie.Select(u => u.ImieNazwisko));
+            File.WriteAllLines(filePath, uczniowie.Select(u => $"{u.ImieNazwisko},{u.Klasa}")); 
             File.WriteAllLines(ostatnieLosowaniaPath, ostatnieLosowania);
             DisplayAlert("Zapisano", "Lista uczniów i historia ostatnich losowań zostały zapisane.", "OK");
         }
 
-        private void WczytajButton_Clicked(object sender, EventArgs e)
+        private void WczytajCalaListe()
         {
             if (File.Exists(filePath))
             {
                 uczniowie = File.ReadAllLines(filePath)
-                    .Select((line, index) => new Uczen { NumerPorzadkowy = index + 1, ImieNazwisko = line })
+                    .Select((line, index) =>
+                    {
+                        string[] parts = line.Split(',');
+                        return new Uczen
+                        {
+                            NumerPorzadkowy = index + 1,
+                            ImieNazwisko = parts[0],
+                            Klasa = parts.Length > 1 ? parts[1] : string.Empty
+                        };
+                    })
                     .ToList();
+
                 RefreshListView();
-                DisplayAlert("Wczytano", "Lista uczniów została wczytana.", "OK");
+                DisplayAlert("Wczytano", "Cała lista uczniów została wczytana.", "OK");
             }
             else
             {
                 DisplayAlert("Błąd", "Plik z listą uczniów nie istnieje.", "OK");
             }
+        }
 
-            if (File.Exists(ostatnieLosowaniaPath))
+        private async void WczytajButton_Clicked(object sender, EventArgs e)
+        {
+            string[] options = { "Cała lista", "Uczniowie z klasy" };
+
+            string selectedOption = await DisplayActionSheet("Wybierz opcję wczytywania", "Anuluj", null, options);
+
+
+            if (selectedOption == "Anuluj")
             {
-                ostatnieLosowania = new Queue<string>(File.ReadAllLines(ostatnieLosowaniaPath).Reverse());
+                return;
+            }
+
+            if (selectedOption == "Cała lista")
+            {
+                WczytajCalaListe();
+            }
+            else if (selectedOption == "Uczniowie z klasy")
+            {
+                await WczytajUczniowZKlasy();
+            }
+        }
+
+        private async Task WczytajUczniowZKlasy()
+        {
+            string klasaDoWczytania = await DisplayPromptAsync("Wczytaj uczniów z klasy", "Podaj klasę uczniów do wczytania", "OK", "Anuluj");
+
+            if (string.IsNullOrWhiteSpace(klasaDoWczytania))
+            {
+                DisplayAlert("Błąd", "Nie podano klasy.", "OK");
+                return;
+            }
+
+            if (File.Exists(filePath))
+            {
+                uczniowie = File.ReadAllLines(filePath)
+                    .Select((line, index) =>
+                    {
+                        string[] parts = line.Split(','); 
+                        return new Uczen
+                        {
+                            NumerPorzadkowy = index + 1,
+                            ImieNazwisko = parts[0],
+                            Klasa = parts.Length > 1 ? parts[1] : string.Empty
+                        };
+                    })
+                    .Where(u => u.Klasa.Equals(klasaDoWczytania, StringComparison.OrdinalIgnoreCase) && !string.IsNullOrWhiteSpace(u.Klasa))
+                    .ToList();
+
+                RefreshListView();
+                DisplayAlert("Wczytano", $"Uczniowie z klasy {klasaDoWczytania} zostali wczytani.", "OK");
             }
             else
             {
-                ostatnieLosowania.Clear();
+                DisplayAlert("Błąd", "Plik z listą uczniów nie istnieje.", "OK");
             }
         }
+
+
+
+
+
 
         private void RefreshListView()
         {
@@ -167,11 +245,23 @@ namespace LosowanieOsoby
         {
             if (SelectedUczen != null)
             {
+               
                 string newName = await DisplayPromptAsync("Edytuj ucznia", "Wprowadź nowe imię i nazwisko", "OK", "Anuluj", SelectedUczen.ImieNazwisko);
+                string newClass = await DisplayPromptAsync("Edytuj ucznia", "Wprowadź nową klasę", "OK", "Anuluj", SelectedUczen.Klasa);
 
-                if (!string.IsNullOrWhiteSpace(newName))
+                if (!string.IsNullOrWhiteSpace(newName) || !string.IsNullOrWhiteSpace(newClass))
                 {
-                    SelectedUczen.ImieNazwisko = newName;
+                   
+                    if (!string.IsNullOrWhiteSpace(newName))
+                    {
+                        SelectedUczen.ImieNazwisko = newName;
+                    }
+
+                    if (!string.IsNullOrWhiteSpace(newClass))
+                    {
+                        SelectedUczen.Klasa = newClass;
+                    }
+
                     RefreshListView();
                     DisplayAlert("Sukces", "Uczeń został zaktualizowany.", "OK");
                 }
@@ -182,21 +272,8 @@ namespace LosowanieOsoby
             }
         }
 
+
     }
 
-    public class Uczen
-    {
-        public int NumerPorzadkowy
-        {
-            get; set;
-        }
-        public string ImieNazwisko
-        {
-            get; set;
-        }
-        public bool IsObecny
-        {
-            get; set;
-        }
-    }
+
 }

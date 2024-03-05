@@ -7,8 +7,8 @@
 
     Po więcej informacji o plikach manifestu pakietów, zobacz http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="d2c59bdb-6e8f-41be-bbce-d7279b20a981" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
-  <mp:PhoneIdentity PhoneProductId="A285D707-7602-4D84-9209-035D57F8D5D7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="0ca66b4b-e356-4412-bde3-5b60a602412b" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="42D0275F-924D-4ACB-8141-5F5EACACADF8" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>LosowanieOsoby</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

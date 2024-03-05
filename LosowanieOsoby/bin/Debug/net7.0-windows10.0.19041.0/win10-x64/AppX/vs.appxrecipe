@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>d2c59bdb-6e8f-41be-bbce-d7279b20a981</PackageIdentityName>
+    <PackageIdentityName>0ca66b4b-e356-4412-bde3-5b60a602412b</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
@@ -18,10 +18,10 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B3097830CAADAB2F706A3FBFD59D4E25863737345CD1DA8A67FDF38EA6B4821E</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>d2c59bdb-6e8f-41be-bbce-d7279b20a981_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>d2c59bdb-6e8f-41be-bbce-d7279b20a981_9zz4h110yvjzm!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>d2c59bdb-6e8f-41be-bbce-d7279b20a981</RegisteredPackageID>
+    <RegisteredManifestChecksum>9FF68ADF5B637A4807C3BA8DB06A3E27AF67C06B9A724C64815FBED1DA1973E2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0ca66b4b-e356-4412-bde3-5b60a602412b_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0ca66b4b-e356-4412-bde3-5b60a602412b_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0ca66b4b-e356-4412-bde3-5b60a602412b</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-25T21:58:36.865</Modified>
+      <Modified>2024-03-05T21:46:52.853</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-25T21:52:25.337</Modified>
+      <Modified>2024-03-03T18:27:12.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LosowanieOsoby.runtimeconfig.json">
       <PackagePath>LosowanieOsoby.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-25T18:49:46.553</Modified>
+      <Modified>2024-03-03T17:45:20.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LosowanieOsoby.dll">
       <PackagePath>LosowanieOsoby.dll</PackagePath>
-      <Modified>2024-02-25T21:58:35.849</Modified>
+      <Modified>2024-03-05T21:46:51.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>LosowanieOsoby.exe</PackagePath>
-      <Modified>2024-02-25T21:58:35.855</Modified>
+      <Modified>2024-03-05T21:46:51.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LosowanieOsoby.deps.json">
       <PackagePath>LosowanieOsoby.deps.json</PackagePath>
-      <Modified>2024-02-25T21:18:22.666</Modified>
+      <Modified>2024-03-03T17:45:20.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -935,239 +935,239 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-02-25T18:49:12.242</Modified>
+      <Modified>2024-03-03T17:44:05.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-02-25T18:49:20.785</Modified>
+      <Modified>2024-03-03T17:44:08.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-02-25T18:49:20.798</Modified>
+      <Modified>2024-03-03T17:44:08.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-02-25T18:49:20.818</Modified>
+      <Modified>2024-03-03T17:44:08.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-02-25T18:49:20.849</Modified>
+      <Modified>2024-03-03T17:44:08.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-02-25T18:49:20.967</Modified>
+      <Modified>2024-03-03T17:44:08.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-02-25T18:49:12.239</Modified>
+      <Modified>2024-03-03T17:44:05.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-02-25T18:49:12.240</Modified>
+      <Modified>2024-03-03T17:44:05.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-02-25T18:49:21.012</Modified>
+      <Modified>2024-03-03T17:44:08.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.230</Modified>
+      <Modified>2024-03-03T17:44:09.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.242</Modified>
+      <Modified>2024-03-03T17:44:09.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.251</Modified>
+      <Modified>2024-03-03T17:44:09.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.266</Modified>
+      <Modified>2024-03-03T17:44:09.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.325</Modified>
+      <Modified>2024-03-03T17:44:09.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.072</Modified>
+      <Modified>2024-03-03T17:44:08.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.074</Modified>
+      <Modified>2024-03-03T17:44:08.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.086</Modified>
+      <Modified>2024-03-03T17:44:08.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.077</Modified>
+      <Modified>2024-03-03T17:44:08.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.080</Modified>
+      <Modified>2024-03-03T17:44:08.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.054</Modified>
+      <Modified>2024-03-03T17:44:08.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.056</Modified>
+      <Modified>2024-03-03T17:44:08.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.069</Modified>
+      <Modified>2024-03-03T17:44:08.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.059</Modified>
+      <Modified>2024-03-03T17:44:08.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.062</Modified>
+      <Modified>2024-03-03T17:44:08.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.020</Modified>
+      <Modified>2024-03-03T17:44:08.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.022</Modified>
+      <Modified>2024-03-03T17:44:08.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.025</Modified>
+      <Modified>2024-03-03T17:44:08.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.029</Modified>
+      <Modified>2024-03-03T17:44:08.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.033</Modified>
+      <Modified>2024-03-03T17:44:08.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.035</Modified>
+      <Modified>2024-03-03T17:44:08.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.038</Modified>
+      <Modified>2024-03-03T17:44:08.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.050</Modified>
+      <Modified>2024-03-03T17:44:08.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.040</Modified>
+      <Modified>2024-03-03T17:44:08.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.043</Modified>
+      <Modified>2024-03-03T17:44:08.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.129</Modified>
+      <Modified>2024-03-03T17:44:08.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.134</Modified>
+      <Modified>2024-03-03T17:44:08.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.139</Modified>
+      <Modified>2024-03-03T17:44:08.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.148</Modified>
+      <Modified>2024-03-03T17:44:09.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.162</Modified>
+      <Modified>2024-03-03T17:44:09.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.106</Modified>
+      <Modified>2024-03-03T17:44:08.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.109</Modified>
+      <Modified>2024-03-03T17:44:08.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.113</Modified>
+      <Modified>2024-03-03T17:44:08.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.116</Modified>
+      <Modified>2024-03-03T17:44:08.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.124</Modified>
+      <Modified>2024-03-03T17:44:08.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.090</Modified>
+      <Modified>2024-03-03T17:44:08.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.093</Modified>
+      <Modified>2024-03-03T17:44:08.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.096</Modified>
+      <Modified>2024-03-03T17:44:08.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.098</Modified>
+      <Modified>2024-03-03T17:44:08.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.103</Modified>
+      <Modified>2024-03-03T17:44:08.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.167</Modified>
+      <Modified>2024-03-03T17:44:09.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.173</Modified>
+      <Modified>2024-03-03T17:44:09.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.181</Modified>
+      <Modified>2024-03-03T17:44:09.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.193</Modified>
+      <Modified>2024-03-03T17:44:09.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.222</Modified>
+      <Modified>2024-03-03T17:44:09.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.049</Modified>
+      <Modified>2024-03-03T17:44:08.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.059</Modified>
+      <Modified>2024-03-03T17:44:08.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.071</Modified>
+      <Modified>2024-03-03T17:44:08.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.090</Modified>
+      <Modified>2024-03-03T17:44:08.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matys\source\repos\LosowanieOsoby\LosowanieOsoby\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-25T18:49:21.134</Modified>
+      <Modified>2024-03-03T17:44:08.981</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
